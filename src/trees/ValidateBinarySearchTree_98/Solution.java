@@ -1,6 +1,6 @@
-package binarytree.ValidateBinarySearchTree_98;
+package trees.ValidateBinarySearchTree_98;
 
-import binarytree.TreeNode;
+import trees.TreeNode;
 
 public class Solution {
 

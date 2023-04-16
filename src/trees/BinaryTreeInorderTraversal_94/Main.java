@@ -1,6 +1,6 @@
-package binarytree.BinaryTreeInorderTraversal_94;
+package trees.BinaryTreeInorderTraversal_94;
 
-import binarytree.TreeNode;
+import trees.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/binary-tree-inorder-traversal/description/">Binary Tree Inorder Traversal</a>

@@ -1,6 +1,6 @@
-package binarytree.MaximumDepthOfBinaryTree_104;
+package trees.MaximumDepthOfBinaryTree_104;
 
-import binarytree.TreeNode;
+import trees.TreeNode;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

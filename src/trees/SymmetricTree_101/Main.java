@@ -1,6 +1,6 @@
-package binarytree.SymmetricTree_101;
+package trees.SymmetricTree_101;
 
-import binarytree.TreeNode;
+import trees.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/symmetric-tree/description/">Symmetric Tree</a>

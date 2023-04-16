@@ -1,6 +1,6 @@
-package binarytree.MaximumDepthOfBinaryTree_104;
+package trees.MaximumDepthOfBinaryTree_104;
 
-import binarytree.TreeNode;
+import trees.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Maximum Depth of Binary Tree</a>

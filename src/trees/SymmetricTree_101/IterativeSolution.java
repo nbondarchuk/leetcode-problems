@@ -1,6 +1,6 @@
-package binarytree.SymmetricTree_101;
+package trees.SymmetricTree_101;
 
-import binarytree.TreeNode;
+import trees.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

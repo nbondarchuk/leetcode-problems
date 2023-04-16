@@ -1,6 +1,6 @@
-package binarytree.BinaryTreeInorderTraversal_94;
+package trees.BinaryTreeInorderTraversal_94;
 
-import binarytree.TreeNode;
+import trees.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;
