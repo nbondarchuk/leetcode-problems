@@ -15,6 +15,7 @@ public class Solution {
         for (int right = 0; right < s.length(); right++) {
             char c = s.charAt(right);
             if (map.get(c) != null) {
+                // abba - when the second 'a' is reached, left will be = 2 and map.get('a') will return 0
                 left = Math.max(left, map.get(c) + 1);
             }
             map.put(c, right);
