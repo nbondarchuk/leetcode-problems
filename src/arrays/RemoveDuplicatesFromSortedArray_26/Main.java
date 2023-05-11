@@ -8,8 +8,14 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[] nums = {1, 1, 1, 1, 2, 2, 2, 2, 3};
-        System.out.println(new Solution().removeDuplicates(nums));
-        System.out.println(Arrays.toString(nums));
+        int[] nums1 = {1, 1, 1, 1, 2, 2, 2, 2, 3};
+        System.out.println(new Solution().removeDuplicates(nums1));
+        System.out.println(Arrays.toString(nums1));
+
+        System.out.println("---");
+
+        int[] nums2 = {1, 1, 1, 1, 2, 2, 2, 2, 3};
+        System.out.println(new Solution2().removeDuplicates(nums2));
+        System.out.println(Arrays.toString(nums2));
     }
 }

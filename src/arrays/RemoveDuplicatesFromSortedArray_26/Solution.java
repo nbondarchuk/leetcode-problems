@@ -1,6 +1,6 @@
 package arrays.RemoveDuplicatesFromSortedArray_26;
 
-public class Solution {
+class Solution {
 
     public int removeDuplicates(int[] nums) {
         if (nums.length == 1) {
