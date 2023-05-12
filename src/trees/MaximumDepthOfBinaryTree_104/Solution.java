@@ -4,7 +4,7 @@ import trees.TreeNode;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Solution {
+class Solution {
 
     public int maxDepth(TreeNode root) {
         if (root == null) {
