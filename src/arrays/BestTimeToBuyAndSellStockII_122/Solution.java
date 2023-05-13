@@ -1,6 +1,6 @@
 package arrays.BestTimeToBuyAndSellStockII_122;
 
-public class Solution {
+class Solution {
 
     private int profit;
 

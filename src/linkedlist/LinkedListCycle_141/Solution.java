@@ -2,7 +2,7 @@ package linkedlist.LinkedListCycle_141;
 
 import linkedlist.ListNode;
 
-public class Solution {
+class Solution {
 
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {

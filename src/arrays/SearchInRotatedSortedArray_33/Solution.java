@@ -3,7 +3,7 @@ package arrays.SearchInRotatedSortedArray_33;
 /**
  * See <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/solutions/154836/The-INF-and-INF-method-but-with-a-better-explanation-for-dummies-like-me/">explanation</a>.
  */
-public class Solution {
+class Solution {
 
     public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;

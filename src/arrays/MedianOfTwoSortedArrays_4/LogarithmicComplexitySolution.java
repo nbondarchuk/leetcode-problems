@@ -3,7 +3,7 @@ package arrays.MedianOfTwoSortedArrays_4;
 /**
  * <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/solutions/2471/very-concise-o-log-min-m-n-iterative-solution-with-detailed-explanation/">Solution description</a>
  */
-public class LogarithmicComplexitySolution {
+class LogarithmicComplexitySolution {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // We would like nums1 to be not shorter than nums2.

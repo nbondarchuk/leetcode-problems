@@ -1,6 +1,6 @@
 package arrays.MedianOfTwoSortedArrays_4;
 
-public class LinearComplexitySolution {
+class LinearComplexitySolution {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int i = 0, j = 0, k = 0;

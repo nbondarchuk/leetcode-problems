@@ -1,6 +1,6 @@
 package arrays.FindFirstAndLastPositionOfElementInSortedArray_34;
 
-public class Solution {
+class Solution {
 
     public int[] searchRange(int[] nums, int target) {
         int start = -1, end = -1;

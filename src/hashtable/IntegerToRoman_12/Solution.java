@@ -2,7 +2,7 @@ package hashtable.IntegerToRoman_12;
 
 import java.util.*;
 
-public class Solution {
+class Solution {
 
     private static final Map<Integer, String> map = new LinkedHashMap<>();
     static {

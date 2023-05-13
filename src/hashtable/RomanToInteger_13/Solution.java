@@ -3,7 +3,7 @@ package hashtable.RomanToInteger_13;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+class Solution {
 
     private static final Map<Character, Short> map = new HashMap<>(7);
     static {

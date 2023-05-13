@@ -1,6 +1,6 @@
 package arrays.ContainerWithMostWater_11;
 
-public class Solution {
+class Solution {
 
     public int maxArea(int[] height) {
         int max = 0;
