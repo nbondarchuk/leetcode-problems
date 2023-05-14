@@ -1,6 +1,6 @@
 package math.ReverseInteger_7;
 
-public class EditorialSolution {
+class EditorialSolution {
 
     public int reverse(int x) {
         int rev = 0;

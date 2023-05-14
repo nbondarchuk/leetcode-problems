@@ -1,7 +1,7 @@
 package trees.ConvertSortedArrayToBinarySearchTree_108;
 
 /**
- * <a href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/631/">Convert Sorted Array to Binary Search Tree</a>
+ * <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/">Convert Sorted Array to Binary Search Tree</a>
  */
 public class Main {
 

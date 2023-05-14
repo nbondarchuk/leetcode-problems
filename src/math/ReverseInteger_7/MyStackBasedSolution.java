@@ -2,7 +2,7 @@ package math.ReverseInteger_7;
 
 import java.util.Stack;
 
-public class MyStackBasedSolution {
+class MyStackBasedSolution {
 
     public int reverse(int x) {
         Stack<Integer> stack = new Stack<>();

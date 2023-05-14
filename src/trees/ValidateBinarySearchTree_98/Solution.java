@@ -2,7 +2,7 @@ package trees.ValidateBinarySearchTree_98;
 
 import trees.TreeNode;
 
-public class Solution {
+class Solution {
 
     public boolean isValidBST(TreeNode root) {
         return isValidBST(root, null, null);
