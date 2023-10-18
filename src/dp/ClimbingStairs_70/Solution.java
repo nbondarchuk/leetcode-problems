@@ -1,4 +1,4 @@
-package math.ClimbingStairs_70;
+package dp.ClimbingStairs_70;
 
 import java.util.ArrayList;
 import java.util.List;

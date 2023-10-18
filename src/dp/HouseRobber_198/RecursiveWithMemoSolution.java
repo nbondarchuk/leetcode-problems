@@ -1,4 +1,4 @@
-package math.HouseRobber_198;
+package dp.HouseRobber_198;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package math.HouseRobber_198;
+package dp.HouseRobber_198;
 
 /**
  * <a href="https://leetcode.com/problems/house-robber/description/">House Robber</a>

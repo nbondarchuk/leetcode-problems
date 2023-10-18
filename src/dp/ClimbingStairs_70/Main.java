@@ -1,4 +1,4 @@
-package math.ClimbingStairs_70;
+package dp.ClimbingStairs_70;
 
 /**
  * <a href="https://leetcode.com/problems/climbing-stairs/description/">Climbing Stairs</a>
