@@ -17,7 +17,8 @@ package strings.LongestPalindromicSubstring_5;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(new ExpandAroundCenterSolution().longestPalindrome("baabaad"));
-        System.out.println(new ManachersAlgorithmSolution().longestPalindrome("baabaad"));
+        String testString = "baabaad";
+        System.out.println(new ExpandAroundCenterSolution().longestPalindrome(testString));
+        System.out.println(new ManachersAlgorithmSolution().longestPalindrome(testString));
     }
 }
