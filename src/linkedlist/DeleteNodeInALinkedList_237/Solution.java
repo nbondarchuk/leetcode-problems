@@ -2,7 +2,7 @@ package linkedlist.DeleteNodeInALinkedList_237;
 
 import linkedlist.ListNode;
 
-public class Solution {
+class Solution {
 
     public void deleteNode(ListNode node) {
         ListNode next = node.next;

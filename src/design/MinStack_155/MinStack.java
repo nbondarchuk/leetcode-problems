@@ -2,7 +2,7 @@ package design.MinStack_155;
 
 import java.util.Stack;
 
-public class MinStack {
+class MinStack {
 
     private static class Node {
 

@@ -2,7 +2,7 @@ package linkedlist.RemoveNthNodeFromEndOfList_19;
 
 import linkedlist.ListNode;
 
-public class Solution {
+class Solution {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         int size = countSize(head);

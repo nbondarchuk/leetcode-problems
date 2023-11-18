@@ -2,7 +2,7 @@ package linkedlist.MergeTwoSortedLists_21;
 
 import linkedlist.ListNode;
 
-public class Solution {
+class Solution {
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = new ListNode(); // sentinel

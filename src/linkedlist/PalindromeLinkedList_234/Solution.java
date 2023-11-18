@@ -2,7 +2,7 @@ package linkedlist.PalindromeLinkedList_234;
 
 import linkedlist.ListNode;
 
-public class Solution {
+class Solution {
 
     public boolean isPalindrome(ListNode head) {
         ListNode firstHalfEnd = halfSplit(head);

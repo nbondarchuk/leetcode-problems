@@ -1,6 +1,6 @@
 package arrays.RotateImage_48;
 
-public class Solution {
+class Solution {
 
     public void rotate(int[][] matrix) {
         int n = matrix[0].length;

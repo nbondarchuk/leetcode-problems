@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Solution {
+class Solution {
 
     public int[] intersect(int[] nums1, int[] nums2) {
         int[] numsShorter = nums1.length < nums2.length ? nums1 : nums2;

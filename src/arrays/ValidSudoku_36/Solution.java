@@ -3,7 +3,7 @@ package arrays.ValidSudoku_36;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Solution {
+class Solution {
 
     public boolean isValidSudoku(char[][] board) {
         // validate rows

@@ -1,6 +1,6 @@
 package arrays.PlusOne_66;
 
-public class Solution {
+class Solution {
 
     public int[] plusOne(int[] digits) {
         boolean add = true;

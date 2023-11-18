@@ -3,7 +3,7 @@ package dp.ClimbingStairs_70;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
 
     private int maxN;
 

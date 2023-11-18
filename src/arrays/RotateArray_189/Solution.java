@@ -1,6 +1,6 @@
 package arrays.RotateArray_189;
 
-public class Solution {
+class Solution {
 
     public void rotate(int[] nums, int k) {
         k = k % nums.length;

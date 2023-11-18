@@ -10,7 +10,7 @@ import java.util.Stack;
  * During the first iteration list content is stored into the stack.
  * During the second iteration stack is compared with the list.
  */
-public class MyStackBasedSolution {
+class MyStackBasedSolution {
 
     public boolean isPalindrome(ListNode head) {
         ListNode iter = head;

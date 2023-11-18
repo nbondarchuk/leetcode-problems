@@ -1,6 +1,6 @@
 package arrays.MoveZeroes_283;
 
-public class Solution {
+class Solution {
 
     public void moveZeroes(int[] nums) {
         for (int i = 0, lastNonZeroPosition = 0; i < nums.length; i++) {

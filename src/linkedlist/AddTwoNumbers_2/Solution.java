@@ -2,7 +2,7 @@ package linkedlist.AddTwoNumbers_2;
 
 import linkedlist.ListNode;
 
-public class Solution {
+class Solution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         byte overflow = 0;
