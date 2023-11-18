@@ -1,4 +1,4 @@
-package arrays.Permutations_46;
+package backtracking.Permutations_46;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,6 +21,7 @@ class RecursiveSolution2 {
                 for (int j = 0; j < lvl; j++) {
                     if (a[j] == nums[i]) {
                         used = true;
+                        break;
                     }
                 }
                 if (!used) {

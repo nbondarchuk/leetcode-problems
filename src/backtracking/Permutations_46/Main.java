@@ -1,4 +1,4 @@
-package arrays.Permutations_46;
+package backtracking.Permutations_46;
 
 /**
  * <a href="https://leetcode.com/problems/permutations">Permutations</a>
