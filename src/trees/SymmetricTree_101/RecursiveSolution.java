@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BiConsumer;
 
-public class RecursiveSolution {
+class RecursiveSolution {
 
     private static final TreeNode EMPTY_NODE = new TreeNode(Integer.MAX_VALUE);
 

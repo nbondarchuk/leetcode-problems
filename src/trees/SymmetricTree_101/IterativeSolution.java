@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class IterativeSolution {
+class IterativeSolution {
 
     private static final TreeNode EMPTY_NODE = new TreeNode(Integer.MAX_VALUE);
 

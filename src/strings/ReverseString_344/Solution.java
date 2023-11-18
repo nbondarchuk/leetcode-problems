@@ -1,6 +1,6 @@
 package strings.ReverseString_344;
 
-public class Solution {
+class Solution {
 
     public void reverseString(char[] s) {
         int left = 0;

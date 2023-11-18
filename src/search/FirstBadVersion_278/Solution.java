@@ -1,6 +1,6 @@
 package search.FirstBadVersion_278;
 
-public class Solution {
+class Solution {
 
     private final int bad;
 

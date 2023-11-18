@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * <a href="https://leetcode.com/problems/binary-tree-inorder-traversal/editorial/">Solution</a>
  */
-public class Solution {
+class Solution {
 
     public List<Integer> inorderTraversal(TreeNode root) {
         if (root == null) {

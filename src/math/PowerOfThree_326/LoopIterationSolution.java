@@ -3,7 +3,7 @@ package math.PowerOfThree_326;
 /**
  * See <a href="https://leetcode.com/problems/power-of-three/editorial/">Solution</a>
  */
-public class LoopIterationSolution {
+class LoopIterationSolution {
 
     public boolean isPowerOfThree(int n) {
         if (n < 1) {

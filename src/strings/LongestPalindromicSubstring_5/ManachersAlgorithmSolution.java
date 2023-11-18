@@ -1,5 +1,9 @@
 package strings.LongestPalindromicSubstring_5;
 
+/**
+ * <a href="https://codeforces.com/blog/entry/12143?locale=ru">Алгоритм Манакера и читаемость кода</a>
+ * <a href="https://habr.com/ru/articles/653617/">Алгоритм поиска самой длинной подстроки-палиндрома</a>
+ */
 class ManachersAlgorithmSolution {
 
     public String longestPalindrome(String s) {

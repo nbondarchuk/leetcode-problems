@@ -3,7 +3,7 @@ package strings.FirstUniqueCharacterInAString_387;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+class Solution {
 
     public int firstUniqChar(String s) {
         Map<Character, Integer> counts = new HashMap<>();
