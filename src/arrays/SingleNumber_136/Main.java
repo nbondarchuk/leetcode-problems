@@ -1,7 +1,7 @@
 package arrays.SingleNumber_136;
 
 /**
- * <a href="https://leetcode.com/problems/single-number/description/">Single Number</a>
+ * <a href="https://leetcode.com/problems/single-number">Single Number</a>
  */
 public class Main {
 

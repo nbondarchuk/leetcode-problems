@@ -1,4 +1,4 @@
-package arrays.DailyTemperatures_739;
+package stack.DailyTemperatures_739;
 
 import java.util.Stack;
 
