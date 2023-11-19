@@ -1,7 +1,11 @@
 package arrays.SearchInRotatedSortedArray_33;
 
+import common.Difficulty;
+
+import static common.DifficultyLevel.MEDIUM;
+
 /**
- * <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">Search in Rotated Sorted Array</a>
+ * <a href="https://leetcode.com/problems/search-in-rotated-sorted-array">Search in Rotated Sorted Array</a>
  * <p>
  * There is an integer array nums sorted in ascending order (with distinct values).
  * <br/>
@@ -15,6 +19,7 @@ package arrays.SearchInRotatedSortedArray_33;
  * You must write an algorithm with O(log n) runtime complexity.
  * </p>
  */
+@Difficulty(MEDIUM)
 public class Main {
 
     public static void main(String[] args) {

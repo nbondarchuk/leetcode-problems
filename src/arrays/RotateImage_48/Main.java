@@ -1,10 +1,15 @@
 package arrays.RotateImage_48;
 
+import common.Difficulty;
+
 import java.util.Arrays;
 
+import static common.DifficultyLevel.MEDIUM;
+
 /**
- * <a href="https://leetcode.com/problems/rotate-image/description/">Rotate Image</a>
+ * <a href="https://leetcode.com/problems/rotate-image">Rotate Image</a>
  */
+@Difficulty(MEDIUM)
 public class Main {
 
     public static void main(String[] args) {

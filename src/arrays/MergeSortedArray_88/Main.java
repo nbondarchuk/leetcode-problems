@@ -1,10 +1,15 @@
 package arrays.MergeSortedArray_88;
 
+import common.Difficulty;
+
 import java.util.Arrays;
 
+import static common.DifficultyLevel.EASY;
+
 /**
- * <a href="https://leetcode.com/problems/merge-sorted-array/">Merge Sorted Array</a>
+ * <a href="https://leetcode.com/problems/merge-sorted-array">Merge Sorted Array</a>
  */
+@Difficulty(EASY)
 public class Main {
 
     public static void main(String[] args) {

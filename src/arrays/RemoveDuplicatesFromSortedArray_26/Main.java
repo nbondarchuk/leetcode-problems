@@ -1,10 +1,15 @@
 package arrays.RemoveDuplicatesFromSortedArray_26;
 
+import common.Difficulty;
+
 import java.util.Arrays;
 
+import static common.DifficultyLevel.EASY;
+
 /**
- * <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">Remove Duplicates from Sorted Array</a>
+ * <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array">Remove Duplicates from Sorted Array</a>
  */
+@Difficulty(EASY)
 public class Main {
 
     public static void main(String[] args) {
