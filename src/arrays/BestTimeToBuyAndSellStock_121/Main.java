@@ -1,8 +1,11 @@
 package arrays.BestTimeToBuyAndSellStock_121;
 
 import common.Difficulty;
+import common.Topics;
 
 import static common.DifficultyLevel.EASY;
+import static common.Topic.ARRAYS;
+import static common.Topic.DYNAMIC_PROGRAMMING;
 
 /**
  * <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock">Best Time to Buy and Sell Stock</a>
@@ -13,6 +16,10 @@ import static common.DifficultyLevel.EASY;
  * </p>
  */
 @Difficulty(EASY)
+@Topics({
+        ARRAYS,
+        DYNAMIC_PROGRAMMING
+})
 public class Main {
 
     public static void main(String[] args) {

@@ -1,10 +1,13 @@
 package arrays.MoveZeroes_283;
 
 import common.Difficulty;
+import common.Topics;
 
 import java.util.Arrays;
 
 import static common.DifficultyLevel.EASY;
+import static common.Topic.ARRAYS;
+import static common.Topic.TWO_POINTERS;
 
 /**
  * <a href="https://leetcode.com/problems/move-zeroes">Move Zeroes</a>
@@ -14,6 +17,10 @@ import static common.DifficultyLevel.EASY;
  * </p>
  */
 @Difficulty(EASY)
+@Topics({
+        ARRAYS,
+        TWO_POINTERS
+})
 public class Main {
 
     public static void main(String[] args) {

@@ -2,5 +2,29 @@ package common;
 
 public enum Topic {
 
-    STRING, DESIGN, QUEUE, ITERATOR, STACK, TREE, LINKED_LIST, BFS, DFS, BINARY_TREE
+    ARRAYS,
+
+    STRING,
+
+    DESIGN,
+
+    QUEUE,
+
+    ITERATOR,
+
+    STACK,
+
+    TREE,
+
+    LINKED_LIST,
+
+    BFS,
+
+    DFS,
+
+    BINARY_TREE,
+
+    TWO_POINTERS,
+
+    DYNAMIC_PROGRAMMING
 }
