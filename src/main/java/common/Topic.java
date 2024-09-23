@@ -18,6 +18,8 @@ public enum Topic {
 
     LINKED_LIST,
 
+    HASH_TABLE,
+
     BFS,
 
     DFS,
@@ -26,5 +28,9 @@ public enum Topic {
 
     TWO_POINTERS,
 
-    DYNAMIC_PROGRAMMING
+    DYNAMIC_PROGRAMMING,
+
+    SORTING,
+
+    COUNTING
 }
