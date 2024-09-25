@@ -3,7 +3,7 @@ package linkedlist.ReverseLinkedList_206;
 import linkedlist.ListNode;
 
 /**
- * <a href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</a>
+ * <a href="https://leetcode.com/problems/reverse-linked-list">Reverse Linked List</a>
  */
 public class Main {
 

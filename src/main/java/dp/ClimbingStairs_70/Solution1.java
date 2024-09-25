@@ -3,13 +3,13 @@ package dp.ClimbingStairs_70;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class Solution1 {
 
     private int maxN;
 
     private final List<Integer> values = new ArrayList<>();
 
-    public Solution() {
+    public Solution1() {
         maxN = 2;
         values.add(1);
         values.add(2);
