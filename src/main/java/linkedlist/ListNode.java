@@ -33,4 +33,16 @@ public class ListNode {
 
         return sb.toString();
     }
+
+    public static boolean equals(ListNode list1, ListNode list2) {
+        while (list1 != null && list2 != null) {
+            if (list1.val != list2.val) {
+                return false;
+            }
+            list1 = list1.next;
+            list2 = list2.next;
+        }
+
+        return list1 == null && list2 == null;
+    }
 }

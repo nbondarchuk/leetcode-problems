@@ -7,18 +7,13 @@ class Solution {
             return true;
         }
 
-        int tIndex = 0;
-        int sIndex = 0;
-
-        while (tIndex < t.length()) {
-            if (t.charAt(tIndex) == s.charAt(sIndex)) {
-                tIndex++;
-                sIndex++;
-            } else {
-                tIndex++;
+        int j = 0;
+        for (int i = 0; i < t.length(); i++) {
+            if (s.charAt(j) == t.charAt(i)) {
+                j++;
             }
 
-            if (sIndex == s.length()) {
+            if (j == s.length()) {
                 return true;
             }
         }

@@ -11,7 +11,7 @@ class Solution {
             int num1 = nums[i];
             int num2 = target - num1;
             if (map.containsKey(num2)) {
-                return new int[] {map.get(num2), i};
+                return new int[]{map.get(num2), i};
             } else {
                 map.put(num1, i);
             }
