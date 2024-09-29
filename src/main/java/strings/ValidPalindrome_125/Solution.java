@@ -6,7 +6,7 @@ class Solution {
         s = s.replaceAll("[^a-zA-Z0-9]", "");
         s = s.toLowerCase();
 
-        if (s.length() == 0) {
+        if (s.isEmpty()) {
             return true;
         }
 

@@ -1,9 +1,14 @@
 package strings.ValidPalindrome_125;
 
-public class Main {
+import static org.assertj.core.api.Assertions.assertThat;
+
+/**
+ * <a href="https://leetcode.com/problems/valid-palindrome">Valid Palindrome</a>
+ */
+class Main {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().isPalindrome("A man, a plan, a canal: Panama"));
-        System.out.println(new Solution2().isPalindrome("A man, a plan, a canal: Panama"));
+        assertThat(new Solution().isPalindrome("A man, a plan, a canal: Panama")).isTrue();
+        assertThat(new Solution2().isPalindrome("A man, a plan, a canal: Panama")).isTrue();
     }
 }
