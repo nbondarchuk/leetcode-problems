@@ -1,5 +1,8 @@
 package hashtable.IsomorphicStrings_205;
 
+import common.Difficulty;
+
+import static common.DifficultyLevel.EASY;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
@@ -15,6 +18,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * No two characters may map to the same character, but a character may map to itself.
  * </p>
  */
+@Difficulty(EASY)
 class Main {
 
     public static void main(String[] args) {

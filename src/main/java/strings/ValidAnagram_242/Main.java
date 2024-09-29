@@ -1,17 +1,21 @@
 package strings.ValidAnagram_242;
 
+import common.Difficulty;
+
+import static common.DifficultyLevel.EASY;
+import static org.assertj.core.api.Assertions.assertThat;
+
 /**
- * <a href="https://leetcode.com/problems/valid-anagram/description/">Valid Anagram</a>
+ * <a href="https://leetcode.com/problems/valid-anagram">Valid Anagram</a>
  */
-public class Main {
+@Difficulty(EASY)
+class Main {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().isAnagram("anagram", "nagaram"));
-        System.out.println(new Solution().isAnagram("rat", "car"));
+        assertThat(new Solution().isAnagram("anagram", "nagaram")).isTrue();
+        assertThat(new Solution().isAnagram("rat", "car")).isFalse();
 
-        System.out.println("---");
-
-        System.out.println(new Solution2().isAnagram("anagram", "nagaram"));
-        System.out.println(new Solution2().isAnagram("rat", "car"));
+        assertThat(new Solution2().isAnagram("anagram", "nagaram")).isTrue();
+        assertThat(new Solution2().isAnagram("rat", "car")).isFalse();
     }
 }
