@@ -1,7 +1,12 @@
 package hashtable.LongestSubstringWithoutRepeatingCharacters_3;
 
+import common.Difficulty;
+
+import static common.DifficultyLevel.MEDIUM;
+import static org.assertj.core.api.Assertions.assertThat;
+
 /**
- * <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters</a>
+ * <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters">Longest Substring Without Repeating Characters</a>
  * <p>
  * Given a string s, find the length of the longest substring without repeating characters.
  * </p>
@@ -13,10 +18,10 @@ package hashtable.LongestSubstringWithoutRepeatingCharacters_3;
  *     </ul>
  * </p>
  */
-public class Main {
+@Difficulty(MEDIUM)
+class Main {
 
     public static void main(String[] args) {
-        Solution s = new Solution();
-        System.out.print(s.lengthOfLongestSubstring("abba"));
+        assertThat(new Solution().lengthOfLongestSubstring("abba")).isEqualTo(2);
     }
 }
