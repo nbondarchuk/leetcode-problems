@@ -1,6 +1,6 @@
 package strings.LongestCommonPrefix_14;
 
-class Solution {
+class Solution1 {
 
     public String longestCommonPrefix(String[] strs) {
         int i = 0;
