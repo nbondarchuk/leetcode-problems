@@ -5,7 +5,7 @@ import trees.TreeNode;
 import java.util.Stack;
 import java.util.function.Consumer;
 
-class Solution {
+class Solution1 {
 
     public void flatten(TreeNode root) {
         if (root == null) {
@@ -25,12 +25,12 @@ class Solution {
     }
 
     private void traversePreOrder(TreeNode node, Consumer<TreeNode> nodeConsumer) {
+        if (node == null) {
+            return;
+        }
+
         nodeConsumer.accept(node);
-        if (node.left != null) {
-            traversePreOrder(node.left, nodeConsumer);
-        }
-        if (node.right != null) {
-            traversePreOrder(node.right, nodeConsumer);
-        }
+        traversePreOrder(node.left, nodeConsumer);
+        traversePreOrder(node.right, nodeConsumer);
     }
 }

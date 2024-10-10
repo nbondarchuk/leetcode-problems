@@ -18,15 +18,22 @@ import static common.Topic.*;
         LINKED_LIST,
         BINARY_TREE
 })
-public class Main {
+class Main {
 
     public static void main(String[] args) {
+        TreeNode root1 = createTree();
+        TreeNode root2 = createTree();
+
+        new Solution1().flatten(root1);
+        new Solution2().flatten(root2);
+
+        System.out.println(root1);
+        System.out.println(root2);
+    }
+
+    private static TreeNode createTree() {
         TreeNode leftSubTree = new TreeNode(2, new TreeNode(3), new TreeNode(4));
         TreeNode rightSubTree = new TreeNode(5, null, new TreeNode(6));
-        TreeNode root = new TreeNode(1, leftSubTree, rightSubTree);
-
-        new Solution().flatten(root);
-
-        System.out.println(root);
+        return new TreeNode(1, leftSubTree, rightSubTree);
     }
 }
