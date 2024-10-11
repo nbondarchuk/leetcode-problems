@@ -1,16 +1,17 @@
-package arrays.SingleNumber_136;
+package bits.SingleNumber_136;
 
 import common.Difficulty;
 
 import static common.DifficultyLevel.EASY;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * <a href="https://leetcode.com/problems/single-number">Single Number</a>
  */
 @Difficulty(EASY)
-public class Main {
+class Main {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().singleNumber(new int[]{2, 2, 1}));
+        assertThat(new Solution().singleNumber(new int[]{2, 2, 1})).isEqualTo(1);
     }
 }

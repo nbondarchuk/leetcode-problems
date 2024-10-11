@@ -1,4 +1,4 @@
-package arrays.SingleNumber_136;
+package bits.SingleNumber_136;
 
 class Solution {
 
