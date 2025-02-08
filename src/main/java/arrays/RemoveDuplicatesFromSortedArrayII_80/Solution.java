@@ -7,18 +7,20 @@ class Solution {
             return 1;
         }
 
-        // 1,2,2,2,3
+        int ptr = 0;
         int numDups = 0;
-        int insertIndex = 1; // last unique element's index
         for (int i = 1; i < nums.length; i++) {
-            if (nums[i - 1] != nums[i]) {
-                nums[insertIndex++] = nums[i];
+            if (nums[i] == nums[ptr]) {
+                if (numDups == 0) {
+                    numDups += 1;
+                    nums[++ptr] = nums[i];
+                }
+            } else {
+                nums[++ptr] = nums[i];
                 numDups = 0;
-            } else if (numDups < 1) { // max one dupe is allowed
-                nums[insertIndex++] = nums[i];
-                numDups++;
             }
         }
-        return insertIndex;
+
+        return ptr + 1;
     }
 }

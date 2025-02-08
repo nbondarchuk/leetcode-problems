@@ -7,7 +7,7 @@ package math.PascalsTriangleII_119;
  *     In Pascal's triangle, each number is the sum of the two numbers directly above.
  * </p>
  */
-public class Main {
+class Main {
 
     public static void main(String[] args) {
         System.out.println(new Solution().getRow(3));

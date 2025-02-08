@@ -1,5 +1,13 @@
 package arrays.BestTimeToBuyAndSellStockII_122;
 
+import common.Difficulty;
+
+import static common.DifficultyLevel.MEDIUM;
+
+/**
+ * <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii">Best Time to Buy and Sell Stock II</a>
+ */
+@Difficulty(MEDIUM)
 class Solution {
 
     private int profit;

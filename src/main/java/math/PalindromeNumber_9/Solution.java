@@ -1,5 +1,16 @@
 package math.PalindromeNumber_9;
 
+import common.Difficulty;
+
+import static common.DifficultyLevel.EASY;
+
+/**
+ * <a href="https://leetcode.com/problems/palindrome-number">Palindrome Number</a>
+ * <p>
+ * Given an integer x, return true if x is a palindrome, and false otherwise.
+ * </p>
+ */
+@Difficulty(EASY)
 class Solution {
 
     public boolean isPalindrome(int x) {
