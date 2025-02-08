@@ -32,5 +32,7 @@ public enum Topic {
 
     SORTING,
 
-    COUNTING
+    COUNTING,
+
+    BACKTRACKING
 }

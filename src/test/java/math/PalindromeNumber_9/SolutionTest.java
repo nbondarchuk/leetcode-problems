@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class SolutionTest {
 
     @Test
-    void isPalindrome() {
+    void isPalindromeTest() {
         assertThat(new Solution().isPalindrome(1221)).isTrue();
         assertThat(new Solution().isPalindrome(-1221)).isFalse();
     }
