@@ -8,7 +8,7 @@ import java.util.Map;
  */
 class Solution {
 
-    private Map<Integer, Integer> memo = new HashMap<>();
+    private final Map<Integer, Integer> memo = new HashMap<>();
 
     public int minCostClimbingStairs(int[] cost) {
         return dp(cost.length, cost);
